@@ -6,4 +6,3 @@ app = dash.Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[dbc.themes.COSMO]
 )
-server = app.server
